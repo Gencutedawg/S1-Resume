@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    margin-top: 8%;
+
+}
+
+.dp {
+    float: right;
+    flex: 30%;
+    border-radius: 50%;
+    max-width: 22vh;
+    margin-right: 5%;
+    max-height: 27vh;
+    margin-top: -2%;
+}
+.body {
+    display: flex;
+}
+
+.left {
+    flex: 50%;
+    padding: 5%
+}
+
+.right {
+    flex: 50%;
+    padding: 5%
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    align-items: right;
+    float: right;
+    margin-bottom: 0.5%;
+}
